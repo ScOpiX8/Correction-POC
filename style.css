@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Newsreader';
+    font-size: 68px;
+    font-weight: 600;
+    color: #0f437f;
+    margin-bottom: 30px;
+}
+
+header{
+    display: flex;
+    box-shadow: 0 2px 6px 0 rgba(163, 163, 163, 0.45);
+    padding: 0 16%;
+}
+
+header .logo-st-vincent img{
+    width: 50px;
+    margin: 16px 0;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: #1e3d60;
+    font-weight: 700;
+    font-family: 'Kumbh sans';
+    margin: 0 40px;
+}
+
+header .menu{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.bloc1{
+    display: flex;
+    padding: 100px 16%;
+    align-items: center;
+}
+
+.bloc1 .text p{
+    font-family: 'Kumbh sans';
+    font-size: 18px;
+    color: #1e3d60;
+    margin-bottom: 50px;
+}
+
+.bloc1 .text{
+    flex: 1;
+    padding-right: 25px;
+}
+
+.bloc1 .text .two-buttons{
+    display: flex;
+}
+
+.bloc1 .text .two-buttons .explores-courses a{
+    text-decoration: none;
+    color: white;
+    background-color: #1764bb;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kumbh sans';
+    display: inline-block;
+}
+
+.bloc1 .text .two-buttons .learn-more a{
+    text-decoration: none;
+    color: #1764bb;
+    background-color: #d3d6da;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kumbh sans';
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.bloc1 .img{
+    flex: 1;
+}
+
+.bloc1 .img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1406px) {
+    .bloc1{
+        display: grid;
+        padding: 100px 16%;
+        align-items: center;
+    }
+
+    .bloc1 .text{
+        padding-right: 0px;
+    }
+
+    .bloc1 .text .two-buttons{
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
