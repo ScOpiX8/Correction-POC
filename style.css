@@ -10,6 +10,22 @@ h1{
     margin-bottom: 30px;
 }
 
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Newsreader';
+    font-weight: 600;
+}
+
+h3{
+    font-size: 22px;
+    color: #0f437f;
+    font-family: 'Newsreader';
+    font-weight: 700;
+    margin-left: 30px;
+}
+
 header{
     display: flex;
     box-shadow: 0 2px 6px 0 rgba(163, 163, 163, 0.45);
@@ -59,7 +75,7 @@ header .menu{
     display: flex;
 }
 
-.bloc1 .text .two-buttons .explores-courses a{
+.button-blue a{
     text-decoration: none;
     color: white;
     background-color: #1764bb;
@@ -109,3 +125,82 @@ header .menu{
         margin-bottom: 10px;
     }
 }
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.bloc2{
+    background-color: #1e3d60;
+    padding-top: 100px;
+}
+
+.module{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card, .card2, .card3{
+    background-color: white;
+    height: 510px;
+    width: 500px;
+}
+
+.bloc2 .module .cards img{
+    width: 250px;
+    margin: 30px 0 0 30px
+}
+
+.bloc2 .module .cards p{
+    font-size: 17px;
+    color: #0000ff8c;
+    font-family: 'Newsreader';
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 0 30px 30px;
+}
+
+.bloc2 .module .cards a{
+    text-decoration: none;
+    color: white;
+    background-color: #1764bb;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kumbh sans';
+    margin-left: 30px;
+}
+
+.button-bloc2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1206px) {
+    .module{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .cards{
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card, .card2, .card3{
+        background-color: white;
+        height: 510px;
+        width: 730px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
