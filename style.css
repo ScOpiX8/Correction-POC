@@ -4,10 +4,11 @@ body{
 
 h1{
     font-family: 'Newsreader';
-    font-size: 68px;
+    font-size: 60px;
     font-weight: 600;
     color: #0f437f;
     margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 h2{
@@ -23,7 +24,15 @@ h3{
     color: #0f437f;
     font-family: 'Newsreader';
     font-weight: 700;
-    margin-left: 30px;
+}
+
+h4{
+    font-family: 'Newsreader';
+    font-size: 39px;
+    font-weight: 600;
+    color: #0f437f;
+    margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 header{
@@ -59,52 +68,50 @@ header .menu{
     align-items: center;
 }
 
-.bloc1 .text p{
+.text p{
     font-family: 'Kumbh sans';
     font-size: 18px;
     color: #1e3d60;
     margin-bottom: 50px;
 }
-
-.bloc1 .text{
+.text{
     flex: 1;
-    padding-right: 25px;
 }
 
 .bloc1 .text .two-buttons{
     display: flex;
+    gap: 10px;  
 }
 
 .button-blue a{
     text-decoration: none;
     color: white;
-    background-color: #1764bb;
+    background-color: #0f437f;
     border-radius: 30px;
-    padding: 20px 40px;
-    font-size: 18px;
-    font-weight: 600;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 800;
     font-family: 'Kumbh sans';
     display: inline-block;
 }
 
-.bloc1 .text .two-buttons .learn-more a{
+.learn-more a{
     text-decoration: none;
-    color: #1764bb;
+    color: #3b5776;
     background-color: #d3d6da;
     border-radius: 30px;
-    padding: 20px 40px;
-    font-size: 18px;
-    font-weight: 600;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 800;
     font-family: 'Kumbh sans';
-    margin-left: 10px;
     display: inline-block;
 }
 
-.bloc1 .img{
+.img{
     flex: 1;
 }
 
-.bloc1 .img img{
+.img img{
     width: 100%;
     border-radius: 30px;
 }
@@ -149,6 +156,10 @@ header .menu{
     width: 500px;
 }
 
+.text-card{
+    margin-left: 30px;
+}
+
 .bloc2 .module .cards img{
     width: 250px;
     margin: 30px 0 0 30px
@@ -161,7 +172,7 @@ header .menu{
     font-weight: 600;
     line-height: 1.5;
     text-align: left;
-    margin: 0 0 30px 30px;
+    margin-bottom: 30px;
 }
 
 .bloc2 .module .cards a{
@@ -169,16 +180,16 @@ header .menu{
     color: white;
     background-color: #1764bb;
     border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 10px 30px;
+    font-size: 17px;
     font-weight: 600;
     font-family: 'Kumbh sans';
-    margin-left: 30px;
 }
 
 .button-bloc2{
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 @media screen and (max-width: 1206px) {
@@ -201,6 +212,200 @@ header .menu{
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
+.bloc3{
+    padding-top: 100px;
+    background-color: #f5f5f5;
+}
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 
+.container-bloc3{
+    display: flex; 
+    align-items: center;
+}
 
+.text1{
+    flex:1;
+}
+
+.two-buttons2{
+    display: grid;
+    gap: 15px;
+}
+
+.button-gray a{
+    text-decoration: none;
+    color: #3b5776;
+    background-color: #becad7;
+    border-radius: 30px;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Kumbh sans';
+    display: inline-block;
+}
+
+.img2{
+    flex:1;
+}
+
+.img2 img{
+    width: 500px;
+    border-radius: 30px;
+}
+
+.teaching{
+    background-color: white;
+    width: 450px;
+    padding: 30px 0 50px 0;
+    border-radius: 15px;
+    box-shadow: 0px 24px 37px 2px rgba(0,0,0,0.28);
+    position: relative;
+    z-index: 2;
+    bottom: 130px;
+    margin: 0 auto;
+}
+
+.text-teaching{
+    margin-left: 30px;
+}
+
+.teaching p{
+    color: #1e3d60;
+    font-weight: 700;
+    font-family: 'Kumbh sans';
+    font-size: 18px;
+}
+
+.teaching span{
+    font-family: 'Kumbh sans';
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1206px) {
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .container-bloc3{
+        display: grid; 
+        align-items: center;
+    }
+
+    .two-buttons2{
+        display: grid;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .img2 img{
+        width: 700px;
+        border-radius: 30px;
+    }
+
+    .teaching{
+        background-color: white;
+        width: 650px;
+        padding: 30px 0 50px 0;
+        border-radius: 15px;
+        box-shadow: 0px 24px 37px 2px rgba(0,0,0,0.28);
+        position: relative;
+        z-index: 2;
+        bottom: 240px;
+        margin: 0 auto;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+.bloc4{
+    background-image: url('./img/canyon.jpg');
+    padding: 150px 0;
+}
+
+.container-bis{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-bloc4{
+    display: flex;
+}
+
+.text-bloc4 p{
+    color: white;
+    font-weight: 400;
+    font-family: 'Kumbh sans';
+    font-size: 18px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.text-bloc4 a{
+    text-decoration: none;
+    color: #0f437f;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Kumbh sans';
+}
+
+.three-squares{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.two-squares{
+    display: grid;
+    gap: 40px;
+}
+
+.three-squares p{
+    color: #62778f;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Kumbh sans';
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.three-squares span{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Kumbh sans';
+}
+
+.square-apart{
+    margin: 130px 0px 0px 30px;
+}
+
+.square{
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    padding: 60px 0px 65px 0;
+}
+
+@media screen and (max-width: 1206px) {
+    .container-bis{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .container-bloc4{
+        display: grid;
+    }   
+
+    .three-squares{
+        display: flex;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}
